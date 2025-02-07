@@ -1,0 +1,1 @@
+This repository demonstrates a common error in shell scripting: race conditions.  The `bug.sh` script shows how concurrent processes can interfere with each other's output if not properly synchronized. The `bugSolution.sh` provides a solution using appropriate locking mechanisms to ensure data integrity.
